@@ -1,30 +1,67 @@
 /* Main Styles */
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f2e9e9;
-    text-decoration: none;
-}
-
-p{
     color:#373638
 }
 
-/* Main Page Styles*/
-.h1-index-page{
-    text-align: left;
-    color:#373638;
+
+/* Main Page Styles*/ 
+.navigation-bar{
+    background-color:#eed3d3;
+    list-style-type: none;
+    padding: 10px;
+    
+} 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color:#eed3d3
 }
-.menu-options{
-    font-weight: 300;
-    color:#373638;
-    box-sizing: border-box;
-    text-decoration: none;  
+li{
+    display: inline;
+    padding: 10px;
+    color: black;
+    float: right;
+}
+.welcome-box{
+    width: auto;
+    padding: 300px;
+    margin: auto;
+    background-color: #eedede;
+}
+/* Change the link color on hover */
+.menu-contact:hover{
+    background-color: #ffc7f8;
+    color: white;
+}
+.menu-work:hover{
+    background-color: #ffc7f8;
+    color: white;
+}
+.menu-resume:hover{
+    background-color: #ffc7f8;
+    color: white;
+}
+.menu-about:hover{
+    background-color: #ffc7f8;
+    color: white;
+}
+li a:visited{
+    color: #373638;
+}
+li a:active{
+    color: #ff00dd;
 }
 
-/* About Me Styles*/
+.p-index-page{
+    padding-top: 7px;
+}
+/* About Styles*/
 .about-me{
     box-sizing: border-box;
-    
 }
 .hello-my-name{
     box-sizing: border-box;
@@ -41,15 +78,60 @@ p{
     height: 300px;
 }
 
-/*Portfolio Styles*/
-.my-portfolio-title{
-    margin-bottom: 100px;
-
+.body-bio>p{
+    font-size: 12pt;
 }
 
+.basic-button{
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:15pt;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background: #eedede;
+    
+}
+
+.linked-in{
+    background: #eedede;
+    color: #373638;
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.linked-in:hover{
+    background-color: #eed3d3 ;
+}
+
+.facebook{
+    background: #eedede;
+    color: #373638;
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.facebook:hover{
+    background-color: #eed3d3 ;
+}
+
+.instagram{
+    background: #eedede;
+    color: #373638;
+    text-align: center;
+    margin: 20px 5px;
+}
+
+.instagram:hover{
+    background-color: #eed3d3 ;
+}
+/*Portfolio Styles*/
+
+}
 .portfolio-list{
     box-sizing: border-box;
     list-style-type: none;
+    margin-top:50px;
     
 }
 
@@ -60,15 +142,6 @@ p{
     text-align: center;
     background: #f3efef;
     margin-bottom: 20px;
-   
-}
-.img-peel{
-    box-sizing: border-box;
-    width: 300px;
-
-
-
-
 }
 
 .kenzie-profiles{
