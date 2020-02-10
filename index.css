@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* Navigation Bar Styles*/ 
+
 .button-index-page{
     color: #373638;
 }
@@ -27,10 +28,9 @@ h1, h2, h3, h4, h5, h6{
 .navigation-bar{
     background-color:#eed3d3;
     list-style-type: none;
-    padding: 13px;
-
-    
+    padding: 13px; 
 } 
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -231,4 +231,8 @@ li a:active{
 .img-dogs{
     width:500px;
     margin-top:10px;
+}
+
+.whitney{
+    background-color: #aa8b8b;
 }

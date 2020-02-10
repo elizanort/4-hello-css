@@ -1,0 +1,66 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+
+}
+
+.time-date{
+    margin-bottom: 100px;
+}
+
+.intro-text{
+    margin:30px 20px;
+    
+}
+
+.box-1{
+    overflow: auto;
+    margin: 24px 0px;
+}
+
+.box-2{
+    
+    height:33%
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.whitney-photo{
+    float: right;
+    margin: 24px;
+}
+
+.band-link{
+    float: right;
+    clear: both;
+    
+}
+
+.button{
+    margin: 30px 20px;
+    padding:10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    border:black;
+}
+
+
+.button:link{
+    text-decoration: none;
+}
+
+.button:hover{
+    color: lightcoral;
+}
+
+.whitney-text{
+    margin:  20px;
+}
+
+.sign-off{
+    margin:20px;
+}
