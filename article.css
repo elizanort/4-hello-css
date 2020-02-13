@@ -6,14 +6,13 @@ body{
     display: flex;
     align-items: center;
     height: 50px;
-
+    justify-content: center;
 }
 
 .icon{
     display: flex;
     
 }
-
 
 .box{
     height: 8px;
@@ -23,31 +22,40 @@ body{
 .blogs-container{
     display: flex;
     flex-wrap: wrap; 
-    
-    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .entry-container{
     display:flex;
     background-color: whitesmoke;
     border-color: black;
-    width: 300px;
     justify-content: center;
-    
-    
-}
-
-.entry-1{
+    flex-direction: row;
     display:flex;
     flex-direction: column;
-    width: 300px;
+    align-items: flex-start;
+    width:300px;
+    padding: 5px;
+    
 }
 
+.entry-container div{
+    padding: 4px;
+}
 
 .mountain-img{
     width:300px;
 }
 
-
-.heart-icon{
-    width: 20px;
+.heart-icon-container{
+    display: flex;
+    align-items: center;
+    
 }
+
+.heart-icon-container img{
+    display: flex;
+    width: 20px;
+    margin-left: 140px;
+}
+
