@@ -59,3 +59,34 @@ body{
     margin-left: 140px;
 }
 
+/* GARRETT BLOG POST CSS */
+
+.guestimg {
+    width: 200px;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.contentcontainer {
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: aqua;
+  }
