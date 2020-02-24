@@ -1,14 +1,14 @@
 /* Main Styles */
 body{
     /* background-color: #f2e9e9; */
-    background-color: white;
+    background-color: rgb(228, 225, 225);
     color:#373638;
     margin: 0px;
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Krona One', sans-serif;
 }
 
 
@@ -20,6 +20,7 @@ a:link{
 
 .button-index-page{
     color: #373638;
+    
 }
 
 .button-index-page:hover{
@@ -31,25 +32,30 @@ a:link{
 }
 
 .navigation-bar{
-    background-color:#eed3d3;
+    display: flex;
+    background-color:#B7410E;
     list-style-type: none;
-    padding: 13px; 
+    padding: 20px; 
+
 } 
 
 ul{
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background-color:#eed3d3;
-    float: right;
+    background-color:#B7410E;
     
 }
 li{
-    display: inline;
     color: black;
     padding: 10px;
     text-decoration: none;
+}
+
+.navigation-button{
+    justify-items: flex-end;
 }
 
 /* Index Page Syles*/
@@ -65,9 +71,8 @@ li{
 }
 
 .navigation-button:hover{
-    border-bottom: 3px solid #aa8b8b;
-    color: white; 
-    padding: 10px;
+    border-bottom: 5px solid #C96237;
+    color: white;   
 }
 
 li a:visited{
@@ -75,7 +80,7 @@ li a:visited{
 }
 
 li a:active{
-    color: #ff00dd;
+    color: #E7A083;
 }
 
 /* About Styles*/
